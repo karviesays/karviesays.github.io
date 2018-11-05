@@ -1,0 +1,186 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #ecf0f1;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 20rem; 
+    background-color: #edf1f1;
+    border: 10px solid #313033;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+header p {
+    letter-spacing: .3rem;
+}
+
+header img {
+    width: 20rem;
+    height: auto;
+}
+
+/* Navigation Start */
+
+nav {
+    background-color: #313030;
+    width: 70rem;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+nav li {
+   
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 8rem;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #FBFDFC;
+    font-weight: 300;
+    font-size: .85rem;
+    letter-spacing: .3rem;
+}
+
+nav a:hover {
+    color: #bdc3c7;
+}
+/* End Navigation */
+
+.projects {
+  
+    border: 8px solid #313033;
+    border-radius: 10px;
+}
+
+.tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.dark-color {
+    background-color: #313033;
+    color: #fff;
+}
+
+.left-description {
+    flex-basis: 50%;
+    padding: 2rem 8rem;
+}
+
+.left-description p {
+    font-weight: 400;
+    margin-bottom: 3rem;
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
+}
+
+.right-img {
+    flex-basis: 50%;
+    padding: 2rem 5rem;
+}
+
+.right-img img {
+    width: 30rem;
+    height: auto;
+}
+
+/* View more btn Start */
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: 1rem 1rem;
+    background-color: #313033; 
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-dark {
+    border: none;
+    padding: 1rem 1rem;
+    background-color: #edf1f1;
+    color:#313033;
+}
+
+/* View more btn End */
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-size: .7rem;
+}
+
+.btn-abt {
+    text-decoration: none;
+    border: none;
+    margin: 2rem 0 0 0;
+    padding: .5rem .5rem;
+    background-color: #313033; 
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-media {
+    text-transform: uppercase;
+}
+.nav-media ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+}
+
+.nav-media li {
+    list-style-type: none;
+    padding: 1rem 1rem;
+    
+}
+
+.nav-media a {
+    color: #313033;
+    font-size: .8rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
